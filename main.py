@@ -40,6 +40,8 @@ def print_report(path_to_file, words_count, characters_dict):
             count = item["num"]
             print(f"The '{char}' character was found {count} times")
 
+    print(f"--- End report of {path_to_file} ---")
+
 def convert_dict_to_list(dict):
     result_list = []
 
